@@ -16,6 +16,6 @@ class CalculadoraController extends Controller
 
     public function restar($a, $b){
         $result = $a - $b;
-        return view('calculadora::resta', compact('result'));
+        return view('calculadora::restar', compact('result'));
     }
 }
