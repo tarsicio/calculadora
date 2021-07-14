@@ -3,7 +3,7 @@
     "description": "Demo para crear mi primera libreria",
     "type": "library",
     "homepage": "https://github.com/tarsicio/calculadora",
-    "license": "MTI",
+    "license": "MIT",
     "authors": [
         {
             "name": "Tarsicio Carrizales",
