@@ -12,8 +12,8 @@
     ],
     "minimum-stability": "dev",    
     "autoload": {
-    "psr-4": {
-        "Tarsicio\\Calculadora\\": "horus/tarsicio/calculadora/src/"
+        "psr-4": {
+            "Tarsicio\\Calculadora\\": "horus/tarsicio/calculadora/src/"
+        }
     }
-  }
 }
