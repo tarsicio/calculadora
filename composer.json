@@ -19,9 +19,4 @@
             "url": "https://github.com/tarsicio/calculadora.git"
         }
     ],
-    "autoload": {
-        "psr-4": {           
-            "Tarsicio\\Calculadora\\": "horus/tarsicio/calculadora/src/"
-        },
-    },
 }
