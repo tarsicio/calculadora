@@ -25,7 +25,8 @@ class CalculadoraServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        $this->publishFiles();
         include __DIR__.'/routes.php';        
-        $this->loadMigrationsFrom(__DIR__.'/path/to/migrations');
+        $this->loadMigrationsFrom();
     }
 }
