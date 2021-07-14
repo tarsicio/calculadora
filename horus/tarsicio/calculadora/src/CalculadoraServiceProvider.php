@@ -32,5 +32,6 @@ class CalculadoraServiceProvider extends ServiceProvider
         $this->publishes([
         __DIR__.'/path/to/config/tarsicio.php' => config_path('tarsicio.php'),
     ]);
+        $this->loadMigrationsFrom(__DIR__.'/path/to/migrations');
     }
 }
