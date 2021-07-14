@@ -25,8 +25,10 @@ class CalculadoraServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->publishFiles();
+        $this->publishes([
+        __DIR__.'/config/tarsicio.php' => config_path('app.php'),
+    ]);
         include __DIR__.'/routes.php';        
-        $this->loadMigrationsFrom();
+        $this->loadMigrationsFrom(__DIR__.'/database/migrations');
     }
 }
