@@ -8,6 +8,7 @@ Agregue en el archivo config/app la siguiente línea.
  */
 <br>
 Tarsicio\Calculadora\CalculadoraServiceProvider::class,
+<br>
 
 En el archivo composer.json incluir en la línea de psr-4, la siguiente línea
 <br>
