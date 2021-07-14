@@ -26,5 +26,8 @@ class CalculadoraServiceProvider extends ServiceProvider
     public function boot()
     {
         include __DIR__.'/routes.php';
+        $this->publishes([
+        __DIR__.'/path/to/config/tarsicio.php' => config_path('tarsicio.php'),
+    ]);
     }
 }
