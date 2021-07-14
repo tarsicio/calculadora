@@ -1,0 +1,19 @@
+{
+    "name": "tarsicio/calculadora",
+    "description": "Demo para crear mi primera libreria",
+    "type": "library",
+    "homepage": "https://github.com/tarsicio/calculadora",
+    "license": "MTI",
+    "authors": [
+        {
+            "name": "Tarsicio Carrizales",
+            "email": "telecom.com.ve@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",    
+    "autoload": {
+        "psr-4": {
+            "Tarsicio\\Calculadora\\": "horus/tarsicio/calculadora/src/"
+        }
+    }
+}
