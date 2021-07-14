@@ -9,14 +9,10 @@
             "email": "telecom.com.ve@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {
-    "tarsicio/calculadora": "dev-master"
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/tarsicio/calculadora.git"
-        }
-    ]
+    "minimum-stability": "dev",    
+    "autoload": {
+    "psr-4": {
+        "Tarsicio\\Calculadora\\": "horus/tarsicio/calculadora/src/"
+    }
+  }
 }
