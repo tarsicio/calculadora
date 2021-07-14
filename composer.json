@@ -1,0 +1,14 @@
+{
+    "name": "tarsicio/calculadora",
+    "description": "Demo para crear mi primera libreria",
+    "type": "library",
+    "license": "MTI",
+    "authors": [
+        {
+            "name": "Tarsicio Carrizales",
+            "email": "telecom.com.ve@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
