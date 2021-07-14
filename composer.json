@@ -23,4 +23,5 @@
         "psr-4": {           
             "Tarsicio\\Calculadora\\": "horus/tarsicio/calculadora/src/"
         },
+    },
 }
