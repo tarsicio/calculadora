@@ -17,7 +17,7 @@ class CalculadoraServiceProvider extends ServiceProvider
         $this->app->make('Tarsicio\Calculadora\CalculadoraController');
         $this->loadViewsFrom(__DIR__.'/views', 'calculadora');
         $this->mergeConfigFrom(
-        __DIR__.'/path/to/config/app.php', 'app'
+        __DIR__.'/config/app.php', 'app'
     );
     }
 
@@ -30,7 +30,7 @@ class CalculadoraServiceProvider extends ServiceProvider
     {
         include __DIR__.'/routes.php';
         $this->publishes([
-        __DIR__.'/path/to/config/app.php' => config_path('app.php'),
+        __DIR__.'/config/app.php' => config_path('app.php'),
     ]);
         $this->loadMigrationsFrom(__DIR__.'/path/to/migrations');
     }
