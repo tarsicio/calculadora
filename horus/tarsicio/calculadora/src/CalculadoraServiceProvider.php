@@ -16,6 +16,9 @@ class CalculadoraServiceProvider extends ServiceProvider
         // register our controller
         $this->app->make('Tarsicio\Calculadora\CalculadoraController');
         $this->loadViewsFrom(__DIR__.'/views', 'calculadora');
+        $this->mergeConfigFrom(
+        __DIR__.'/path/to/config/tarsicio.php', 'tarsicio'
+    );
     }
 
     /**
