@@ -10,15 +10,6 @@ Ejecute en su terminal o línea de comando, lo siguiente
 <b>composer require tarsicio/calculadora</b>
 </div>
 <p>
-Luego agregue en el archivo config/app la siguiente línea. 
-<p>
-/*
-<p>
- * Package Service Providers...
-<p>  
- */
-<p>
-<b>Tarsicio\Calculadora\CalculadoraServiceProvider::class,</b>
 <div>
 Despues ejecuta el siguiente comando en su terminal
 </div>
