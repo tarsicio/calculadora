@@ -7,13 +7,14 @@ Ejecute en su terminal o línea de comando, lo siguiente
 </div>
 <p>
 <div>
-<b style="color:red;">composer require tarsicio/calculadora</b>
+<b>composer require tarsicio/calculadora</b>
 </div>
+<p>
 Agregue en el archivo config/app la siguiente línea. 
-<br>
+<p>
 /*
  * Package Service Providers...
  */
-<br>
-Tarsicio\Calculadora\CalculadoraServiceProvider::class,
-<br>
+<p>
+  <b>Tarsicio\Calculadora\CalculadoraServiceProvider::class,</b>
+
