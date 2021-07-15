@@ -1,7 +1,7 @@
 <?php
 
 Route::get('calculadora', function(){
-	echo 'Probando la ruta!';
+	echo 'Este escrito esta en el archivo Route, att, Tarsicio Carrizales!';
 });
 
 Route::get('sumar/{a}/{b}', 'Tarsicio\Calculadora\CalculadoraController@sumar');
