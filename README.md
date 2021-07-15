@@ -1,8 +1,10 @@
 # calculadora
-Paquete de prueba para calculadora
-
-Ejecute en su terminal 
-
+<div style="text-align: center;">
+<h1>PAQUETE DE PRUEBA PARA SUMAR Y RESTAR, POR LA URL</h1>
+</div>
+<div>
+Ejecute en su terminal o línea de comando, lo siguiente 
+</div>
 composer require tarsicio/calculadora
 
 Agregue en el archivo config/app la siguiente línea. 
