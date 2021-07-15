@@ -5,7 +5,8 @@
 <div>
 Ejecute en su terminal o línea de comando, lo siguiente 
 </div>
-<div>
+<p>
+<div style="color:red;">
 <b>composer require tarsicio/calculadora</b>
 </div>
 Agregue en el archivo config/app la siguiente línea. 
