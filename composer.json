@@ -15,5 +15,12 @@
         "psr-4": {
             "Tarsicio\\Calculadora\\": "horus/tarsicio/calculadora/src/"
         }
-    }
+    },
+    "extra": {
+		"laravel": {
+			"providers": [
+				"Tarsicio\\Calculadora\\CalculadoraServiceProvider"
+			]
+		}
+	}
 }
