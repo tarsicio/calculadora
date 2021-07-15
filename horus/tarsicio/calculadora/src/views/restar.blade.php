@@ -5,7 +5,7 @@
 </head>
 <body>
 	<h1 style="text-align:center">
-		Rommerc Alfredo y Tarsicio y Nelson También - El Resultado de la Resta es:  
+		Rommerc Alfredo y Tarsicio El Resultado de la Resta es:  
 		<span style="font-weight:normal">{{ $result }}</span>
 	</h1>
 </body>
