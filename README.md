@@ -1,12 +1,13 @@
-# calculadora
+# Calculadora
 <div style="text-align: center;">
 <h1>PAQUETE DE PRUEBA PARA SUMAR Y RESTAR, POR LA URL</h1>
 </div>
 <div>
 Ejecute en su terminal o línea de comando, lo siguiente 
 </div>
-composer require tarsicio/calculadora
-
+<div>
+<b>composer require tarsicio/calculadora</b>
+</div>
 Agregue en el archivo config/app la siguiente línea. 
 <br>
 /*
